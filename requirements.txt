@@ -1,10 +1,13 @@
-langchain
-faiss-cpu
-sentence-transformers
-streamlit
+# Backend
 fastapi
-uvicorn
-pydantic
-requests
-groq
+uvicorn[standard]
 python-dotenv
+requests
+sentence-transformers
+faiss-cpu
+langchain-community
+pdfplumber
+
+# Frontend
+streamlit
+
